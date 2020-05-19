@@ -1,88 +1,109 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .App {
-    width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 50px;
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
 }
 
 h1 {
-    font-size: 50px;
-    font-family: 'Lobster', cursive;
-    margin-bottom: 20px;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
 }
 
 .App form {
-    display: inline-block;
-    border-radius: 20px;
-    box-shadow: 0,0, 19 1px rgba(0, 0, 0, .39);
-    margin-bottom: 30px;
+  display: inline-block;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
 }
 
 .App input {
-    line-height: 40px;
-    border-radius: 20px 0 0 20px;
-    border: none;
-    width: 400px;
-    padding: 0 20px;
+  line-height: 40px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  width: 400px;
+  padding: 0 20px;
 }
 
 .App input:focus {
-    outline: none;
+  outline: none;
 }
 
 .App button {
-    line-height: 40px;
-    border: none;
-    background-color: #f6f6f6;
-    padding: 0 20px;
-    border-radius: 0 20px 20px 0;
-    cursor: pointer;
+  line-height: 40px;
+  border: none;
+  color: black;
+  font-weight: ;
+  background-color: #FED264;
+  padding: 0 20px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
 }
 
 .App button:focus {
-    outline: none;
+  outline: none;
 }
 
 .searchResultDiv {
-    width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    margin-top: 20px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .searchResultDiv h3 {
-    color: #1a0dab;
-    display: inline-block;
-    line-height: 16px;
-    text-decoration: none;
+  /* color: #1a0dab; */
+  /* color: #31238E; */
+  color: #FED264;
+
+}
+.searchResultDiv h3 a {
+  /* color: #1a0dab; */
+  /* color: #31238E; */
+  color: #FED264;
+  display: inline-block;
+  line-height: 16px;
+  text-decoration: none;
 }
 
 .searchResultDiv h3 a:hover {
-    border-bottom: 3px solid;
+  border-bottom: 2px solid;
 }
 
 .searchResultDiv a:visited {
-    color:#1a0dab;
+  /* color: #1a0dab; */
+  /* color: #31238E; */
+  color: #FED264;
+
 }
 
 .searchResultDiv .link a {
-    text-decoration: none;
-    color: #287e44;
+  text-decoration: none;
+  color: rgb(145, 145, 145);
+
 }
 
 .searchResultDiv .link a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .searchResultDiv .searchmatch {
-    color: #414141;
+  font-weight: bold;
+}
+
+.searchResultDiv .description {
+  color: #414141;
 }

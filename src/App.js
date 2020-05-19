@@ -103,7 +103,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <h1>Hi Roon Labs! What's on your mind?</h1>
+        <h1>Hi Roon Labs! What's on your <font color="#FED264">mind?</font></h1>
         <form action="">
           <input type="text" value={this.state.WikiSearchTerms || ''} onChange={this.changeWikiSearchTerms} placeholder="Search..." />
           <button type="submit" onClick={this.useWikiSearchEngine}>Search</button>
